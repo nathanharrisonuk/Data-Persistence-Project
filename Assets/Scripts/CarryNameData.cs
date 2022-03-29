@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class CarryNameData : MonoBehaviour
 {
@@ -11,4 +12,18 @@ public class CarryNameData : MonoBehaviour
         Instance = DataHandler.nameText;
         DontDestroyOnLoad(gameObject);
     }
+
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
